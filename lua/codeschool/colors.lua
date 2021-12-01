@@ -3,7 +3,7 @@ local hsl = require("lush.hsl")
 -- codeschool palette
 return {
   dark0_hard = hsl("#111111"),
-  dark0 = hsl("#182227"),
+  dark0 = hsl("#242424"),
   dark0_soft = hsl("#252c31"),
   dark1 = hsl("#2a343a"),
   dark2 = hsl("#2e373b"),
@@ -12,7 +12,7 @@ return {
   light0_hard = hsl("#f0f0f0"),
   light0 = hsl("#fbfbfb"),
   light0_soft = hsl("#fefefe"),
-  light1 = hsl("#ebebeb"),
+  light1 = hsl("#b0b0b0"),
   light2 = hsl("#d5d5d5"),
   light3 = hsl("#bdbdbd"),
   light4 = hsl("#a8a8a8"),
@@ -38,5 +38,5 @@ return {
   faded_purple = hsl("#675e6e"),
   faded_aqua = hsl("#a9b5a7"),
   faded_orange = hsl("#c59820"),
-  gray = hsl("#9a9a9a"),
+  gray = hsl("#696969"),
 }
