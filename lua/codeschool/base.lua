@@ -288,6 +288,11 @@ local base_group = lush(function()
     GitSignsAdd {CodeschoolGreenSign},
     GitSignsChange {CodeschoolYellowSign},
     GitSignsDelete {CodeschoolRedSign},
+    -- Neovim LSP
+    LspDiagnosticsDefaultError {CodeschoolRedSign},
+    LspDiagnosticsDefaultWarning {CodeschoolYellowSign},
+    LspDiagnosticsDefaultInformation {CodeschoolBlueSign},
+    LspDiagnosticsDefaultHint {CodeschoolBlueSign},
   }
 end)
 
