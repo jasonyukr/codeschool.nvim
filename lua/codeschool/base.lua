@@ -284,6 +284,10 @@ local base_group = lush(function()
     healthError {fg = bg0, bg = colors.error},
     healthSuccess {fg = bg0, bg = green},
     healthWarning {fg = bg0, bg = yellow},
+    -- lewis6991/gitsigns.nvim
+    GitSignsAdd {CodeschoolGreenSign},
+    GitSignsChange {CodeschoolYellowSign},
+    GitSignsDelete {CodeschoolRedSign},
   }
 end)
 
