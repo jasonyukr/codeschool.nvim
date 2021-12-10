@@ -289,10 +289,10 @@ local base_group = lush(function()
     GitSignsChange {CodeschoolYellowSign},
     GitSignsDelete {CodeschoolRedSign},
     -- Neovim LSP
-    LspDiagnosticsDefaultError {CodeschoolRedSign},
-    LspDiagnosticsDefaultWarning {CodeschoolYellowSign},
-    LspDiagnosticsDefaultInformation {CodeschoolBlueSign},
-    LspDiagnosticsDefaultHint {CodeschoolBlueSign},
+    DiagnosticError {CodeschoolRedSign},
+    DiagnosticWarning {CodeschoolYellowSign},
+    DiagnosticInformation {CodeschoolBlueSign},
+    DiagnosticHint {CodeschoolBlueSign},
   }
 end)
 
