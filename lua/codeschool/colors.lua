@@ -1,9 +1,10 @@
 local hsl = require("lush.hsl")
 
 -- codeschool palette
+-- dark0/light1 is from https://github.com/atom/atom-dark-syntax/blob/master/styles/syntax-variables.less
 return {
   dark0_hard = hsl("#111111"),
-  dark0 = hsl("#242424"),
+  dark0 = hsl("#1d1f21'),
   dark0_soft = hsl("#252c31"),
   dark1 = hsl("#2a343a"),
   dark2 = hsl("#2e373b"),
@@ -12,7 +13,7 @@ return {
   light0_hard = hsl("#f0f0f0"),
   light0 = hsl("#fbfbfb"),
   light0_soft = hsl("#fefefe"),
-  light1 = hsl("#b0b0b0"),
+  light1 = hsl("#c5c8c6'),
   light2 = hsl("#d5d5d5"),
   light3 = hsl("#bdbdbd"),
   light4 = hsl("#a8a8a8"),
