@@ -131,6 +131,9 @@ vim.g.colors_name = "codeschool"
 
 local table_concat = table.concat
 
+local diff_change_color = "#002800"
+local diff_delete_color = "#3f0001"
+
 local base_group = lush(function()
   return {
     -- Base groups
@@ -191,10 +194,10 @@ local base_group = lush(function()
     CursorLine {bg = bg1},
     CursorColumn {CursorLine},
     Directory {CodeschoolBlueBold},
-    DiffAdd {fg = green, bg = bg3, gui = styles.inverse},
-    DiffChange {fg = aqua, bg = bg2, gui = styles.inverse},
-    DiffDelete {fg = colors.neutral_red, bg = colors.neutral_red, gui = styles.inverse},
-    DiffText {fg = yellow, bg = bg2, gui = styles.inverse},
+    DiffAdd {fg = green, bg = diff_change_color, gui = styles.inverse},
+    DiffChange {fg = aqua, bg=diff_change_color, gui = styles.inverse},
+    DiffDelete {fg = diff_delete_color, bg = diff_delete_color, gui = styles.inverse},
+    DiffText {fg = yellow, bg = diff_change_color, gui = styles.inverse},
     -- ErrorMsg {fg = bg0, bg = colors.error, gui = styles.bold},
     VertSplit {fg = bg3, bg = vert_split},
     Folded {fg = gray, bg = bg1, gui = styles.italic_strings},
