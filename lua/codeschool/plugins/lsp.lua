@@ -1,8 +1,14 @@
 -- lsp highlights
 local lush = require("lush")
 local base = require("codeschool.base")
+local colors = require("codeschool.colors")
+local utils = require("codeschool.utils")
+local styles = require("codeschool.settings").styles
 
 local M = {}
+
+local hls_lspreference = utils.get_color_from_var(vim.g.codeschool_hls_lspreference, base.yellow,
+                                               colors)
 
 M = lush(function()
 	return {
@@ -28,9 +34,9 @@ M = lush(function()
     LspDiagnosticsVirtualTextWarning {base.CodeschoolWarning},
     LspDiagnosticsVirtualTextInformation {base.CodeschoolBlue},
     LspDiagnosticsVirtualTextHint {base.CodeschoolAqua},
-    -- LspReferenceRead {base.CodeschoolYellowBold},
-    -- LspReferenceText {base.CodeschoolYellowBold},
-    -- LspReferenceWrite {base.CodeschoolYellowBold},
+    LspReferenceRead {fg = colors.dark0, bg = hls_lspreference},
+    LspReferenceText {fg = colors.dark0, bg = hls_lspreference},
+    LspReferenceWrite {fg = colors.dark0, bg = hls_lspreference},
 	}
 end)
 
