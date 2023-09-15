@@ -296,6 +296,8 @@ local base_group = lush(function()
     DiagnosticWarning {CodeschoolYellowSign},
     DiagnosticInformation {CodeschoolBlueSign},
     DiagnosticHint {CodeschoolBlueSign},
+    -- Noice
+    NoiceCursor { bg = red },
   }
 end)
 
