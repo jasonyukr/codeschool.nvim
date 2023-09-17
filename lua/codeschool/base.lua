@@ -289,7 +289,7 @@ local base_group = lush(function()
     healthWarning {fg = bg0, bg = yellow},
     -- lewis6991/gitsigns.nvim
     GitSignsAdd {CodeschoolGreenSign},
-    GitSignsChange {CodeschoolYellowSign},
+    GitSignsChange {CodeschoolBlueSign},
     GitSignsDelete {CodeschoolRedSign},
     -- Neovim LSP
     DiagnosticError {CodeschoolRedSign},
