@@ -5,7 +5,7 @@ local hsl = require("lush.hsl")
 return {
   dark0_hard = hsl("#111111"),
   dark0 = hsl("#1d1f21"),
-  dark0_darker = hsl(#171717),
+  dark0_darker = hsl("#171717"),
   dark0_soft = hsl("#252c31"),
   dark1 = hsl("#2a343a"),
   dark2 = hsl("#2e373b"),
