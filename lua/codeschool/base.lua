@@ -223,7 +223,7 @@ local base_group = lush(function()
     SpellRare {CodeschoolPurpleUnderline},
     SpellBad {CodeschoolRedUnderline},
     StatusLine {fg = bg2, bg = fg1, gui = styles.inverse},
-    StatusLineNC {fg = bg1, bg = fg4, gui = styles.inverse},
+    StatusLineNC {fg = bg1, bg = fg1, gui = styles.inverse},
     TabLineFill {fg = bg4, bg = bg1, gui = styles.invert_tabline},
     TabLine {fg = bg4, bg = bg1, gui = styles.invert_tabline},
     TabLineSel {fg = tabline_sel, bg = bg1, gui = styles.invert_tabline},
