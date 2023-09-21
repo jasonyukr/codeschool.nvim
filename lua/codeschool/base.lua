@@ -86,7 +86,7 @@ local number_column = utils.get_color_from_var(vim.g.codeschool_number_column, n
 local color_column = utils.get_color_from_var(vim.g.codeschool_color_column, bg1, colors)
 local vert_split = utils.get_color_from_var(vim.g.codeschool_vert_split, bg0, colors)
 local tabline_sel = utils.get_color_from_var(vim.g.codeschool_tabline_sel, green, colors)
-local sign_column = utils.get_color_from_var(vim.g.codeschool_sign_column, bg1, colors)
+local sign_column = utils.get_color_from_var(vim.g.codeschool_sign_column, bg2, colors)
 
 local improved_strings_fg = fg1
 local improved_strings_bg = bg1
